@@ -1,0 +1,110 @@
+body {
+    background-color: #F2E6A7;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+a, a:visited {
+    color: #00552a;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: fixed;
+    overflow: auto;
+    border: 2px solid #382903;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .cite {
+      font-size: 0.8em;
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+
+  button {
+      border-color: #00552a;
+      border-radius: 16px;
+      padding: 4px 8px;
+      cursor: pointer;
+      margin-left: 5px;
+  }
+
+  button:hover {
+      background-color: #F2E6A7;
+  }
