@@ -1,76 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <title>No Silence | Black Lives Matter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="search.js"></script> -->
 </head>
-<body>
+    <body>
 
-<div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="mentalhealth.html">Mental Health</a>
-    <a href="arts.html">Arts</a>
-    <a href="other.html">Other</a>
-</div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">No Silence</a></li>
+            <li class="nav-item"><a href="mhealth.html" class="nav-link">Mental Health</a></li>
+            <li class="nav-item"><a href="bbiz.html" class="nav-link">Black-owned Businesses</a></li>
+            <li class="nav-item"><a href="arts.html" class="nav-link">Arts</a></li>
+            <li class="nav-item"><a href="cresources.html" class="nav-link">Resources</a></li>
+            <li class="nav-item"><a href="online.html" class="nav-link">Online</a></li>
+            <li class="nav-item"><a href="orgs.html" class="nav-link">Organizations</a></li>
+            <li class="nav-item"><a href="other.html" class="nav-link">Other</a></li>
+            </ul>
+        </div>
+    </nav>
+        
+        <main id="content">
+          <!-- <div class="container">
+              <input class="search-bar flex" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+          </div> -->
 
-<div class="sidebar">
-    <a href="#poetry">Poetry</a>
-    <a href="#reads">Reads</a>
-    <a href="#etsy">Etsy</a>
-    <a href="#twitch">Twitch</a>
-    <a href="#misc">Miscellaneous</a>
-</div>
+          <div class="ml-5 mt-5">
+            
+            <div>
+              <h2>Poetry</h2>
+              <ul id="myUL">
+                <li><a href="https://www.neon-entertainment.com/poet-yaw-kyeremateng/">Yaw Kyeremateng</a></li>
+                <li><a href="http://www.abdurraqib.com/">Hanif Abdurraquib</a></li>
+                <li><a href="https://buttonpoetry.com/tag/crystal-valentine/">Crystal Valentine</a></li>
+                <li><a href="https://www.iamrudyfrancisco.com/">Rudy Francisco</a></li>
+                <li><a href="https://buttonpoetry.com/tag/raych-jackson/">Raych Jackson</a></li>
+                <li><a href="https://buttonpoetry.com/tag/steven-willis/">Steven Willis</a></li>
+                <li><a href="http://www.dontecollins.com/about">Donte Collins</a></li>
+              </ul>
+            </div>
 
-<div class="content">
-    <div id="poetry">
-        <h2>Poetry</h2>
-        <hr>
-        <h3><a href="https://buttonpoetry.com/tag/crystal-valentine/">Crystal Valentine</a></h3>
-        <h3><a href="https://www.iamrudyfrancisco.com/">Rudy Francisco</a></h3>
-        <h3><a href="https://buttonpoetry.com/tag/raych-jackson/">Raych Jackson</a></h3>
-        <h3><a href="https://buttonpoetry.com/tag/steven-willis/">Steven Willis</a></h3>
-        <h3><a href="http://www.dontecollins.com/about">Donte Collins</a></h3>
-    </div>
-    <div id="reads">
-        <h2>Reads</h2>
-        <hr>
-        <h3><a href="https://drive.google.com/drive/mobile/folders/1mljH99Nwy-SfgbDec-UDHSrrN1_JLmwB">Books by Black Activists</a></h3>
-        <h3><a href="https://drive.google.com/drive/mobile/folders/0Bz011IF2Pu9TUWIxVWxybGJ1Ync">Black History Month Library</a></h3>
-        <h3><a href="https://www.hrc.org/resources/being-african-american-lgbtq-an-introduction">Being African American & LGBTQ: An Introduction | Human Rights Campaign</a></h3>
-        <h3><a href="https://aalbc.com/books/children.php">Top 150 African-American Children's Books</a></h3>
-        <h3><a href="https://www.penguinrandomhouse.com/books/566247/white-fragility-by-robin-diangelo/">White Fragility by Robin DiAngelo</a></h3>
-        <h3><a href="https://www.ibramxkendi.com/how-to-be-an-antiracist-1">How to Be An Antiracist by Ibram X. Kendi</a></h3>
-    </div>
-    <div id="etsy">
-        <h2>Etsy</h2>
-        <hr>
-        <h3><a href="https://www.etsy.com/shop/lightplusink">lightplusink (Jamila)</a></h3>
-        <h3><a href="https://www.etsy.com/shop/GNODpop?ref=l2-shop-info-avatar">GNODpop (Simone)</a></h3>
-        <h3><a href="https://www.etsy.com/shop/KubiteesClothing?">KubiteesClothing (Kubrat)</a></h3>
-        <h3><a href="https://www.etsy.com/shop/NkossiBoutique/">NkossiBoutique (Jean Pierre)</a></h3>
-        <h3><a href="https://www.etsy.com/shop/SirensSongStitchery?#items">SirensSongStitchery (Stephanie)</a></h3>
-        <h3><a href="https://www.etsy.com/shop/soapboxtheory?#items">Soapbox Thoery (Kayin)</a></h3>
-    </div>
-    <div id="twitch">
-        <h2>Twitch</h2>
-        <hr>
-        <h3><a href="https://www.twitch.tv/blackgirlgamers">BlackGirlGamers</a></h3>
-        <h3><a href="https://www.twitch.tv/keeyuh">Keeyuh</a></h3>
-    </div>
-    <div id="misc">
-        <h2>Miscellaneous</h2>
-        <hr>
-        <h3><a href="https://www.etsy.com/market/black_artists">Black Artists on Etsy</a></h3>
-        <h3><a href="https://www.patreon.com/blackartinamerica">Patreon - Black Art in America</a></h3>
-        <h3><a href="https://www.theashefund.com/">The Ashe Fund</a></h3>
-        <h3><a href="https://shopbaiaonline.com/">Shop Black Art in America</a></h3>
-        <h3><a href="https://shoppeblack.us/">Shoppe Black</a></h3>
-        <h3><a href="https://webuyblack.com/">We Buy Black</a></h3>
-        <h3><a href="https://www.supportblackart.com/">Support Black Art</a></h3>
-        <h3><a href="https://www.blackartdepot.com/">Black Art Depot</a></h3>
-    </div>
-</div>
+            
+              <div>
+                <h2>Books</h2>
+                <ul id="myUL">
+                  <li><a href="https://www.cafeconlibrosbk.com/">Cafe con Libros</a></li>
+                  <li><a href="https://ashaybythebay.com/">Ashay by the Bay</a></li>
+                  <li><a href="http://detroitbookcity.com/">Detroit Book City</a></li>
+                  <li><a href="https://www.afriwarebooks.com/store/c1/Featured_Products.html">Afriware Books</a></li>
+                  <li><a href="https://www.brainlairbooks.com/">Brain Lair Books</a></li>
+                  <li><a href="https://www.braveandkindbooks.com/">Brave + Kind Bookshop</a></li>
+                  <li><a href="https://twitter.com/Arrianna_Planey/status/1269270624339451908">List of books aimed at those in the biomedical/health sciences field</a></li>
+                    <span style="font-size: 0.8em; margin-left:10px;">Covers topics at the intersection of racism, professional hierarchies in healthcare, biomedical research, & social policy more broadly.</span>
+                  <li><a href="https://www.instagram.com/p/CAyQbKajAnS/?igshid=1b8rhy702ag5w">Reading for antiracism          work</a></li>
+                  <li><a href="https://www.instagram.com/p/CA8ZbAjJVQm/?igshid=133g3kxbc3hst">An incomplete antiracism          reading list</a></li>
+                  <li><a href="https://www.harpercollins.ca/black-stories-matter/">Black Stories Matter</a></li>
+                  <li><a href="https://www.wildfigbooksandcoffee.com/">Wild Fig Books</a></li>
+                  <li><a href="https://turningpagebookshop.com/">Turning Page Bookshop</a></li>
+                  <li><a href="https://www.loyaltybookstores.com/">Loyalty Bookstores</a></li>
+                  <li><a href="http://www.sistersuptownbookstore.com/">Sisters Uptown Bookstore</a></li>
+                  <li><a href="https://frugalbookstore.net/">Frugal Bookstore</a></li>
+                  <li><a href="https://www.eyeseeme.com/">EyeSeeMe</a></li>
+                  <li><a href="https://www.fultonstreet918.com/">Fulton Street Books (Tulsa OK)</a></li>
+                  <li><a href="https://linktr.ee/booksandthecity">Books and the City</a></li>
+                  <li><a href="https://www.barnesandnoble.com/w/why-im-no-longer-talking-to-white-people-about-race-reni-eddo-lodge/1125377174;jsessionid=F6AFE883ED288B6DC07640711950EF29.prodny_store01-atgap06?ean=9781408870570">Why I'm No Longer Talking to White People About Race</a></li>
+                  <li><a href="https://www.esowonbookstore.com/">Eso Won Books</a></li>
+                  <li><a href="https://linktr.ee/Harriettsbookshop">Harrietts Bookshop</a></li>
+                  <li><a href="https://linktr.ee/keybookstore">Key Bookstore</a></li>
+                  <li><a href="https://linktr.ee/semicolonchi">Semicolon Bookstore</a></li>
+                  <li><a href="https://linktr.ee/mahoganybooks">MahoganyBooks</a></li>
+                  <li><a href="https://hakimsbookstore.com/">Hakim's Bookshop</a></li>
+                  <li><a href="https://linktr.ee/unclebobbies">Uncle Bobbie's</a></li>
+                  <li><a href="https://www.booksandcranniesva.com/">Books and Crannies</a></li>
+                  <li><a href="https://drive.google.com/drive/u/0/folders/18y0_2wm85L113fVWYdgljq9uuIlmlbl3">Black Revolutionary Texts</a></li>
+                  <li><a href="https://drive.google.com/drive/mobile/folders/1mljH99Nwy-SfgbDec-UDHSrrN1_JLmwB">Books by Black Activists</a></li>
+                  <li><a href="https://drive.google.com/drive/mobile/folders/0Bz011IF2Pu9TUWIxVWxybGJ1Ync">Black History Month Library</a></li>
+                  <li><a href="https://aalbc.com/books/children.php">Top 150 African-American Children's Books</a></li>
+                  <li><a href="https://www.penguinrandomhouse.com/books/566247/white-fragility-by-robin-diangelo/">White Fragility by Robin DiAngelo</a></li>
+                  <li><a href="https://www.ibramxkendi.com/how-to-be-an-antiracist-1">How to Be An Antiracist by Ibram X. Kendi</a></li>
+                </ul>
+              </div>
 
-</body>
-</html> 
+              <div>
+                <h2>Music</h2>
+                  <ul id="myUL">
+                    <li><a href="https://www.altpress.com/features/black-musicians-bands-artists-new-songs/">10 NEW SONGS FROM BLACK ARTISTS WHO SHOULD ALREADY BE ON YOUR PLAYLIST</a></li>
+                    <li><a href="https://www.instagram.com/p/CBD2xPdB1SX/?igshid=1n6p35qn0iedp">100+ Black artists to support on Bandcamp day</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          
+        </main>
+
+    </body>
+</html>
