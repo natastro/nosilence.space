@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Mono&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'PT Mono', monospace;
+}
+
+h2 {
+  font-family: 'PT Mono', monospace;
+  font-size: 1.25rem;
+}
+
 button{
   border-radius: 16px;
   padding: 4px 8px;
@@ -9,9 +26,93 @@ li {
 }
 
 a {
-  color: #8a2be2;
+  color: #2574a9;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color:black;
+}
+
+.img {
+  width: 35%;
+  height: auto;
+}
+
+.page-header {
+	width: 90%;
+	color: #6c9400;
+	margin: 2em auto 3em auto;
+	border-bottom: .5em #8ff0ff solid;
+}
+.page-title {
+	font-size: 3em;
+	margin: 0;
+}
+.page-sub-title {
+	margin: 0 0 1em 0;
+}
+
+.tags-nav {
+	width: 80%;
+	margin: 1em auto;
+}
+.tag-link:link,
+.tag-link:visited {
+	display: inline-block;
+	font-size: 1.25em;
+	color: #fff;
+	background-color: #000000;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 1em;
+	margin: .125em;
+}
+
+.posts {
+	width: 90%;
+	padding: 0;
+	margin: 0 auto 1em auto;
+}
+.posts-title {
+	font-size: 2em;
+}
+
+.post {
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	min-width: 15em;
+	margin: .25em 0;
+	padding: .5em 1em 1em 1em;
+	border: .0625em solid gray;
+	vertical-align: top;
+	line-height: normal;
+}
+.post-tags {
+	display: none;
+	box-sizing: inherit;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	background-color: #000000;
+	padding: 1em;
+}
+
+.page-footer {
+	color: #fff;
+	background-color: #8ff0ff;
+	padding: 2em 0;
+}
+.page-footer p {
+	text-align: center;
+}
+
+.viztag {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 1rem;
+	padding: .25rem;
 }
